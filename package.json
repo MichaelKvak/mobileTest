@@ -1,0 +1,17 @@
+{
+  "name": "webdriverIO_appium_mobile",
+  "type": "module",
+  "devDependencies": {
+    "@wdio/appium-service": "^9.23.2",
+    "@wdio/cli": "^9.23.2",
+    "@wdio/local-runner": "^9.23.2",
+    "@wdio/mocha-framework": "^9.23.2",
+    "@wdio/spec-reporter": "^9.23.2",
+    "appium": "^3.2.0",
+    "appium-uiautomator2-driver": "^6.7.13"
+  },
+  "scripts": {
+    "start-emulator": "emulator -avd Pixel_3a_API_34_extension_level_7_x86_64",
+    "test": "npx wdio run ./wdio.conf.js"
+  }
+}
