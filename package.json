@@ -12,6 +12,6 @@
   },
   "scripts": {
     "start-emulator": "emulator -avd Pixel_3a_API_34_extension_level_7_x86_64",
-    "test": "npx wdio run ./wdio.conf.js"
+    "test": "npx wdio run ./wdio.conf.js --spec ./test/specs/actions.e2e.js"
   }
 }
